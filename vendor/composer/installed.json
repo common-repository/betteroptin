@@ -1,0 +1,162 @@
+[
+    {
+        "name": "aweber/aweber",
+        "version": "v1.1.14",
+        "version_normalized": "1.1.14.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aweber/AWeber-API-PHP-Library.git",
+            "reference": "509abd47ae05f760239f2f5d12eef7ba330b111a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aweber/AWeber-API-PHP-Library/zipball/509abd47ae05f760239f2f5d12eef7ba330b111a",
+            "reference": "509abd47ae05f760239f2f5d12eef7ba330b111a",
+            "shasum": ""
+        },
+        "time": "2015-02-19 18:16:21",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "": "aweber_api/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "description": "The official AWeber API client library.",
+        "homepage": "https://www.aweber.com",
+        "keywords": [
+            "api",
+            "client",
+            "email"
+        ]
+    },
+    {
+        "name": "gambitph/titan-framework",
+        "version": "1.9.2",
+        "version_normalized": "1.9.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gambitph/Titan-Framework.git",
+            "reference": "793bee37350acf4ff10ebf1068aa6d16cdc44da1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gambitph/Titan-Framework/zipball/793bee37350acf4ff10ebf1068aa6d16cdc44da1",
+            "reference": "793bee37350acf4ff10ebf1068aa6d16cdc44da1",
+            "shasum": ""
+        },
+        "time": "2015-10-06 16:21:47",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "titan-framework.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv2+"
+        ],
+        "authors": [
+            {
+                "name": "Gambit Technologies",
+                "email": "info@gambit.ph",
+                "homepage": "http://www.titanframework.net/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Titan Framework allows theme and plugin developers to create admin pages, options, meta boxes, and theme customizer options with just a few simple lines of code.",
+        "homepage": "https://github.com/gambitph/Titan-Framework",
+        "keywords": [
+            "Titan Framework",
+            "framework",
+            "options",
+            "titan",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "julien731/wp-dismissible-notices-handler",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/julien731/WP-Dismissible-Notices-Handler.git",
+            "reference": "5c3ec3e56171b7e5533c4023a3dd23b4523bb29e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/julien731/WP-Dismissible-Notices-Handler/zipball/5c3ec3e56171b7e5533c4023a3dd23b4523bb29e",
+            "reference": "5c3ec3e56171b7e5533c4023a3dd23b4523bb29e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "time": "2016-03-04 09:48:53",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GNU GPL"
+        ],
+        "authors": [
+            {
+                "name": "Julien Liabeuf",
+                "email": "julien@liabeuf.fr",
+                "homepage": "https://julienliabeuf.com",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "A simple library to handle Ajax-dismissible admin notices for WordPress",
+        "homepage": "https://github.com/julien731/WP-Dismissible-Notices-Handler"
+    },
+    {
+        "name": "drewm/mailchimp-api",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/drewm/mailchimp-api.git",
+            "reference": "452ccec87a00ce4b7ff6c8181d28ae79937cbb43"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/drewm/mailchimp-api/zipball/452ccec87a00ce4b7ff6c8181d28ae79937cbb43",
+            "reference": "452ccec87a00ce4b7ff6c8181d28ae79937cbb43",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.0.*",
+            "vlucas/phpdotenv": "^2.0"
+        },
+        "time": "2016-02-20 11:10:07",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "DrewM\\MailChimp\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Drew McLellan",
+                "email": "drew.mclellan@gmail.com",
+                "homepage": "http://allinthehead.com/"
+            }
+        ],
+        "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
+        "homepage": "https://github.com/drewm/mailchimp-api"
+    }
+]
